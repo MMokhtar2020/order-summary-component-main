@@ -1,0 +1,122 @@
+/* start of variables*/
+:root{
+    /* colors */
+    --Paleblue: hsl(225, 100%, 94%);
+    --Brightblue: hsl(245, 75%, 52%);
+    --Brightblueclicked: hsl(245, 75%, 80%);
+    --Verypaleblue: hsl(225, 100%, 98%);
+    --Desaturatedblue: hsl(224, 23%, 55%);
+    --Darkblue: hsl(223, 47%, 23%);
+}
+/* end of variables */
+body{
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+    background-image: url("../images/pattern-background-desktop.svg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: var(--Paleblue);
+}
+
+.container{
+width: 400px;
+height:650px;
+background-color:white;
+margin: 100px auto 0 auto;
+border-radius: 20px;
+display: flex;
+flex-direction: column;
+}
+
+#hero{
+    border-radius: 20px 20px 0 0;
+}
+
+.container .txthead1{
+    text-align: center;
+    color:var(--Darkblue);
+    font-weight: 700;
+    margin-top: 40px ;
+    font-size: 28px;
+}
+
+.container .txt1{
+    text-align: center;
+    color:var(--Desaturatedblue);
+    font-weight: 500;
+    margin-top: 0 ;
+    padding: 0 30px 0 30px;
+    line-height: 1.6;
+}
+
+.plan{
+    background-color: var(--Verypaleblue);
+    border-radius: 20px;
+    width: 75%;
+    height: 100px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px 0 15px;
+}
+.icon{
+    width: 32px;
+}
+.txtwraper{
+    flex-grow: 1;
+    margin-left: 20px;
+    line-height: 0.5;
+}
+.txtwraper .txthead2{
+font-weight: 800;
+color: var(--Darkblue);
+text-align: left;
+}
+.txtwraper .txt2{
+    text-align: left;
+    color: var(--Desaturatedblue);
+}
+
+
+#change{
+    color: var(--Brightblue);
+    font-weight: 700;
+}
+#change:active{
+    text-decoration: none;
+    color: var(--Brightblueclicked);
+}
+#pay{
+    border:none;
+    background-color:var(--Brightblue);
+    color: white;
+    font-weight: 600;
+    width: 75%;
+    height: 50px;
+    margin: 35px auto 25px auto;;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px var(--Desaturatedblue);
+    cursor: pointer;
+}
+#pay:active{
+    background-color: var(--Brightblueclicked);
+}
+#cancel{
+    color: var(--Desaturatedblue);
+    font-weight: 700;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 0;
+}
+#cancel:active{
+    color: black;
+}
+
+.attribution {
+     font-size: 11px; text-align: center; 
+     margin-top: 5px;
+}
+.attribution a {
+     color: hsl(228, 45%, 44%); 
+}

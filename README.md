@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/MMokhtar2020/order-summary-component-main]
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [solution](https://github.com/MMokhtar2020/order-summary-component-main)
+- Live Site URL: [live site](https://your-live-site-url.com)
 
 ## My process
 

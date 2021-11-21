@@ -29,7 +29,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [solution](https://github.com/MMokhtar2020/order-summary-component-main)
-- Live Site URL: [live site](https://your-live-site-url.com)
+- Live Site URL: [live site](https://mmokhtar2020.github.io/order-summary-component-main/)
 
 ## My process
 
@@ -41,6 +41,6 @@ Users should be able to:
 
 ## Author
 
-- Website - [Mohamed Mokhtar](https://www.your-site.com)
+- Website - [Mohamed Mokhtar]
 - Frontend Mentor - [@MMokhtar2020](https://www.frontendmentor.io/profile/mmokhtar2020)
 

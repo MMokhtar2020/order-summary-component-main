@@ -83,7 +83,7 @@ text-align: left;
     color: var(--Brightblue);
     font-weight: 700;
 }
-#change:active{
+#change:hover{
     text-decoration: none;
     color: var(--Brightblueclicked);
 }
@@ -99,7 +99,7 @@ text-align: left;
     box-shadow: 0px 5px 10px var(--Desaturatedblue);
     cursor: pointer;
 }
-#pay:active{
+#pay:hover{
     background-color: var(--Brightblueclicked);
 }
 #cancel{
@@ -109,7 +109,7 @@ text-align: left;
     cursor: pointer;
     margin-top: 0;
 }
-#cancel:active{
+#cancel:hover{
     color: black;
 }
 
